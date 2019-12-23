@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>xxxxxxxxxx</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+<% include ./head %>
+  </head>
+  <body>
+    <h1>xxxxxxxx</h1>
+    <p>Welcome to xxxxxxxxx</p>
+    <ul>
+      <% list.forEach(function (item) { %>
+      <li><%= item.title %> <%= item.content %></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
